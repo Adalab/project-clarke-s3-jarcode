@@ -1,7 +1,61 @@
-//HEADER STYLES
+*{
+	margin: 0;
+	padding: 0;
+}//HEADER STYLES
 .header_style{
-	background-color: black;
-	height: 50px;
-	display: flex;
+	margin: 0;
+	background-color: $colorHeader;
+	height: 100px;
+	position: relative;
+}
+.microlog{
+	display: block;
+	width: 100%;
+}
+.burguer_icon{
 
 }
+.menu{
+	list-style: none;
+}
+.navigation{
+	li{
+		float: left;
+	}
+	a{
+		text-decoration: none;
+		display: block;
+		padding: 10px;
+		background: $colorTextHeader;
+		color: $colorHeader;
+		&:hover{
+			background: $colorHeader;
+			color: #ffffff;
+		}
+	}
+}
+
+			
+
+			.nav li a:hover {
+				background-color:#434343;
+			}
+
+			.nav li ul {
+				display:none;
+				position:absolute;
+				min-width:140px;
+			}
+
+			.nav li:hover > ul {
+				display:block;
+			}
+
+			.nav li ul li {
+				position:relative;
+			}
+
+			.nav li ul li ul {
+				right:-140px;
+				top:0px;
+			}
