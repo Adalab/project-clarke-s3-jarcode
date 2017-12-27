@@ -1,3 +1,7 @@
-
+.header_style {
+  background-color: black;
+  height: 50px;
+	width: 100%;
+  display: flex; }
 
 /*# sourceMappingURL=style.css.map */
