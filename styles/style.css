@@ -1,3 +1,52 @@
+.container-fluid {
+  height: 35vh;
+  background: purple;
+  width: 100%;
+}
 
+.copy {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.logofmp {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1.2em;
+}
+
+.adalab {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 0.5em;
+}
+
+.container-fluid {
+  height: 100vh;
+  background: #DAF7A6;
+}
+
+.row-formulary {
+  height: 100%;
+}
+
+.formulary {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
 
 /*# sourceMappingURL=style.css.map */
