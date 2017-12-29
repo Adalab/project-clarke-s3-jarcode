@@ -10,5 +10,18 @@
 .formulary {
 	display: flex;
 	flex-direction: column;
-	align-items: flex-start;
+	align-items: center;
+}
+
+input, textarea {
+	border-radius: 5px;
+}
+
+label {
+	padding-top: 10px;
+}
+
+.button {
+	margin-top: 10px;
+
 }
