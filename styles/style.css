@@ -1,70 +1,58 @@
 .container-fluid {
   height: 35vh;
   background: purple;
-  width: 100%;
-}
+  width: 100%; }
 
 .copy {
   color: white;
   display: flex;
   justify-content: center;
-  align-items: center;
-}
+  align-items: center; }
 
 .form {
   color: white;
   display: flex;
   justify-content: center;
   align-items: center;
-  text-decoration: none;
-}
+  text-decoration: none; }
 
 .logofmp {
   color: white;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 1.2em;
-}
+  padding-top: 1.2em; }
 
 .adalab {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 0.5em;
-}
+  padding-top: 0.5em; }
 
 .header_style {
   background-color: black;
   height: 50px;
-  display: flex;
-}
+  display: flex; }
 
 .container-fluid {
   height: 100vh;
-  background: #DAF7A6;
-}
+  background: #DAF7A6; }
 
 .row-formulary {
-  height: 100%;
-}
+  height: 100%; }
 
 .formulary {
   display: flex;
   flex-direction: column;
-  align-items: center;
-}
+  align-items: center; }
 
 input, textarea {
-  border-radius: 5px;
-}
+  border-radius: 5px; }
 
 label {
-  padding-top: 10px;
-}
+  padding-top: 10px; }
 
 .button {
-  margin-top: 10px;
-}
+  margin-top: 10px; }
 
 /*# sourceMappingURL=style.css.map */
