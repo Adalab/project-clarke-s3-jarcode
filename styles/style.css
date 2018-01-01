@@ -29,10 +29,27 @@
   align-items: center;
   padding-top: 0.5em; }
 
+* {
+  margin: 0;
+  padding: 0; }
+
 .header_style {
-  background-color: black;
-  height: 50px;
-  display: flex; }
+  margin: 0;
+  background-color: #1E4E5C;
+  height: 100px;
+  position: relative; }
+
+.logo_box {
+  min-width: 200px;
+  margin-left: auto;
+  margin-right: auto; }
+
+.microlog {
+  display: block;
+  margin: auto;
+  max-width: 250px;
+  width: 100%;
+  justify-content: center; }
 
 .container-fluid {
   height: 100vh;

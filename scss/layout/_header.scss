@@ -1,7 +1,23 @@
+* {
+	margin: 0;
+	padding: 0;
+}
 //HEADER STYLES
 .header_style{
-	background-color: black;
-	height: 50px;
-	display: flex;
-
+	margin: 0;
+	background-color: $backHeaderFooter;
+	height: 100px;
+	position: relative;
+}
+.logo_box{
+	min-width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.microlog {
+	display: block;
+	margin: auto;
+	max-width: 250px;
+  width: 100%;
+	justify-content: center;
 }
