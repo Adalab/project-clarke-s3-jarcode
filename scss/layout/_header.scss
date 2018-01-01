@@ -21,3 +21,47 @@
   width: 100%;
 	justify-content: center;
 }
+/*DESPLEGABLE*/
+#navigation{
+	display: none;
+}
+.menu {
+	list-style: none;
+	width: 100px;
+	margin-top: 10px;
+}
+.menu_item {
+	height: 40px;
+	display: flex;
+	align-items: center;
+	padding-left: 10px;
+  background: $backHeaderFooter;
+	color: $whiteColor;
+	cursor:pointer;
+	position: relative;
+	top: 19.5px;
+		&:hover{
+			background: $backPage;
+			color: $backHeaderFooter;
+		}
+}
+.submenu{
+	display: none;
+}
+.item{
+	display: flex;
+	align-items: center;
+	padding-left: 10px;
+	list-style: none;
+	width: 80px;
+	height: 40px;
+	background: $backPage;
+	color: $backHeaderFooter;
+	position:relative;
+	right:-31px;
+	top: 39.5px;
+		&:hover{
+			background: $backHeaderFooter;
+			color: $whiteColor;
+		}
+}
