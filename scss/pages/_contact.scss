@@ -1,8 +1,6 @@
-.container-fluid {
-	height: 100vh;
-	background: #DAF7A6;
+.formulary {
+	background-color: $backPage;
 }
-
 .row-formulary {
 	height: 100%;
 }
@@ -23,5 +21,6 @@ label {
 
 .button {
 	margin-top: 10px;
+	margin-bottom: 10px;
 
 }

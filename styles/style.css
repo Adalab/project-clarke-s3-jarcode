@@ -48,9 +48,11 @@
   transform: rotate(-45deg);
 }
 
+.content {
+  background-color: #1E4E5C;
+}
+
 .container-fluid {
-  height: 35vh;
-  background: #1E4E5C;
   width: 100%;
 }
 
@@ -64,6 +66,7 @@
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  padding-top: 0.5em;
 }
 
 .form {
@@ -77,12 +80,19 @@
   -ms-flex-align: center;
   align-items: center;
   text-decoration: none;
+  padding-top: 0.5em;
 }
 
-.form a {
+.link {
+  color: white;
+  text-decoration: none;
+}
+
+.link:hover {
   text-decoration: underline;
-  -webkit-transition: color ease 1s;
-  transition: color ease 1s;
+  color: #3FB180;
+  -webkit-transition: color ease 1s, border-color ease 1s;
+  transition: color ease 1s, border-color ease 1s;
 }
 
 .logofmp {
@@ -96,6 +106,10 @@
   -ms-flex-align: center;
   align-items: center;
   padding-top: 1.2em;
+}
+
+.logo {
+  color: white;
 }
 
 .adalab {
@@ -187,9 +201,8 @@
   color: #ffffff;
 }
 
-.container-fluid {
-  height: 100vh;
-  background: #DAF7A6;
+.formulary {
+  background-color: #E2D8A3;
 }
 
 .row-formulary {
@@ -219,6 +232,7 @@ label {
 
 .button {
   margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 body {
@@ -231,6 +245,18 @@ body {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
   grid-gap: 5px;
+}
+
+@media all and (min-width: 570px) {
+  .microlog {
+    max-width: 300px;
+  }
+}
+
+@media all and (min-width: 1000px) {
+  .microlog {
+    max-width: 340px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

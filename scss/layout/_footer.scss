@@ -1,6 +1,7 @@
+.content {
+	background-color: $backHeaderFooter;
+}
 .container-fluid {
-	height: 35vh;
-	background: $backHeaderFooter;
 	width: 100%;
 }
 
@@ -9,6 +10,7 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	padding-top: 0.5em;
 }
 
 .form {
@@ -17,12 +19,18 @@
 	justify-content: center;
 	align-items: center;
 	text-decoration: none;
-
+	padding-top: 0.5em;
 }
 
-.form a{
-	text-decoration: underline;
-	transition: color ease 1s;
+.link {
+	color: white;
+	text-decoration: none;
+	&:hover {
+		text-decoration: underline;
+		color: $colorGreen;
+		transition: color ease 1s, border-color ease 1s;
+	}
+
 }
 
 .logofmp {
@@ -31,6 +39,10 @@
 	justify-content: center;
 	align-items: center;
 	padding-top: 1.2em;
+}
+
+.logo {
+	color: white;
 }
 
 .adalab {

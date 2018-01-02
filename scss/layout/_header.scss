@@ -20,6 +20,12 @@
 	max-width: 250px;
   width: 100%;
 	justify-content: center;
+		@media all and (min-width: 570px){
+			max-width: 300px;
+		}
+		@media all and (min-width: 1000px){
+			max-width: 340px;
+		}
 }
 /*DESPLEGABLE*/
 #navigation{
