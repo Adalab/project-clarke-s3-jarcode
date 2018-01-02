@@ -254,4 +254,16 @@ body {
   grid-gap: 5px;
 }
 
+@media all and (min-width: 570px) {
+  .microlog {
+    max-width: 300px;
+  }
+}
+
+@media all and (min-width: 1000px) {
+  .microlog {
+    max-width: 340px;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
