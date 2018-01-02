@@ -1,0 +1,39 @@
+//Button menu header
+#xButton {
+	position: absolute;
+	left: 3%;
+	top: 70%;
+	cursor: pointer;
+	padding: 10px 35px 16px 0px;
+}
+#xButton span, #xButton span:before, #xButton span:after {
+	cursor: pointer;
+	border-radius: 1px;
+	height: 5px;
+	width: 29px;
+	background: white;
+	position: absolute;
+	display: block;
+	content: '';
+}
+#xButton span:before {
+	top: -10px;
+}
+#xButton span:after {
+	bottom: -10px;
+}
+#xButton span, #xButton span:before, #xButton span:after {
+	transition: all 500ms ease-in-out;
+}
+#xButton.active span {
+	background-color: transparent;
+}
+#xButton.active span:before, #xButton.active span:after {
+	top: 0;
+}
+#xButton.active span:before {
+	transform: rotate(45deg);
+}
+#xButton.active span:after {
+	transform: rotate(-45deg);
+}

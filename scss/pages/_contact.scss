@@ -1,0 +1,27 @@
+.container-fluid {
+	height: 100vh;
+	background: #DAF7A6;
+}
+
+.row-formulary {
+	height: 100%;
+}
+
+.formulary {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+input, textarea {
+	border-radius: 5px;
+}
+
+label {
+	padding-top: 10px;
+}
+
+.button {
+	margin-top: 10px;
+
+}

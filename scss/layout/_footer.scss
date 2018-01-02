@@ -1,3 +1,4 @@
+
  // FOOTER
 
 .footer {
@@ -10,4 +11,43 @@
 	height: 10px;
 	width: 15px;
 }
+
+
+.container-fluid {
+	height: 35vh;
+	background: purple;
+	width: 100%;
+}
+
+.copy {
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.form {
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+
+}
+
+.logofmp {
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 1.2em;
+}
+
+.adalab {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 0.5em;
+}
+
 //FIN footer
