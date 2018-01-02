@@ -235,6 +235,22 @@ label {
   margin-bottom: 10px;
 }
 
+.thanks {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #599675;
+  color: white;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  text-align: center;
+  padding-top: 100px;
+}
+
 body {
   margin: 0;
 }
