@@ -48,30 +48,13 @@
   transform: rotate(-45deg);
 }
 
-.footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-  justify-content: space-around;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-.logo {
-  height: 10px;
-  width: 15px;
-}
-
 .container-fluid {
   height: 35vh;
-  background: purple;
+  background: #1E4E5C;
   width: 100%;
 }
 
 .copy {
-  color: white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -84,7 +67,6 @@
 }
 
 .form {
-  color: white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -97,8 +79,13 @@
   text-decoration: none;
 }
 
+.form a {
+  text-decoration: underline;
+  -webkit-transition: color ease 1s;
+  transition: color ease 1s;
+}
+
 .logofmp {
-  color: white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -112,15 +99,7 @@
 }
 
 .adalab {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+  text-align: center;
   padding-top: 0.5em;
 }
 

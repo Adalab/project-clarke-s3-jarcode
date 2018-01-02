@@ -1,33 +1,18 @@
-
- // FOOTER
-
-.footer {
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-}
-
-.logo {
-	height: 10px;
-	width: 15px;
-}
-
-
 .container-fluid {
 	height: 35vh;
-	background: purple;
+	background: $backHeaderFooter;
 	width: 100%;
 }
 
 .copy {
-	color: white;
+
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 
 .form {
-	color: white;
+
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -35,8 +20,13 @@
 
 }
 
+.form a{
+	text-decoration: underline;
+	transition: color ease 1s;
+}
+
 .logofmp {
-	color: white;
+
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -44,10 +34,6 @@
 }
 
 .adalab {
-	display: flex;
-	justify-content: center;
-	align-items: center;
+	text-align: center;
 	padding-top: 0.5em;
 }
-
-//FIN footer
