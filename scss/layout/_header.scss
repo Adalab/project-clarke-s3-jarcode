@@ -18,7 +18,7 @@
 	display: block;
 	margin: auto;
 	max-width: 250px;
-  width: 100%;
+	width: 100%;
 	justify-content: center;
 		@media all and (min-width: 570px){
 			max-width: 300px;
@@ -30,11 +30,17 @@
 /*DESPLEGABLE*/
 #navigation{
 	display: none;
+	position: absolute;
+	left: 0;
+	top: 100%;
+	@media all and (min-width: 600px){
+		display: block;
+	}
 }
 .menu {
 	list-style: none;
-	width: 100px;
-	margin-top: 10px;
+	width: 115px;
+	position: relative;
 }
 .menu_item {
 	height: 40px;
@@ -45,29 +51,32 @@
 	color: $whiteColor;
 	cursor:pointer;
 	position: relative;
-	top: 19.5px;
-		&:hover{
-			background: $backPage;
-			color: $backHeaderFooter;
-		}
+	&:hover{
+		background: $backPage;
+		color: $backHeaderFooter;
+	}
+}
+.menu_item_submenu{
+	.submenu{
+		display: block;
+	}
 }
 .submenu{
 	display: none;
+	position: absolute;
+	left: 100%;
+	top: 0;
 }
 .item{
 	display: flex;
 	align-items: center;
 	padding-left: 10px;
 	list-style: none;
-	width: 80px;
+	width: 100px;
 	height: 40px;
 	background: $backPage;
 	color: $backHeaderFooter;
-	position:relative;
-	right:-31px;
-	top: 39.5px;
-		&:hover{
-			background: $backHeaderFooter;
-			color: $whiteColor;
-		}
+	&:hover{
+		background: $backHeaderFooter;			color: $whiteColor;
+	}
 }

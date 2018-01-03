@@ -5,6 +5,9 @@
 	top: 70%;
 	cursor: pointer;
 	padding: 10px 35px 16px 0px;
+	@media all and (min-width: 600px){
+		display: none;
+	}
 }
 #xButton span, #xButton span:before, #xButton span:after {
 	cursor: pointer;
