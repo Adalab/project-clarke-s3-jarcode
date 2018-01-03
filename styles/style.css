@@ -48,30 +48,15 @@
   transform: rotate(-45deg);
 }
 
-.footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-  justify-content: space-around;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-.logo {
-  height: 10px;
-  width: 15px;
+.content {
+  background-color: #1E4E5C;
 }
 
 .container-fluid {
-  height: 35vh;
-  background: purple;
   width: 100%;
 }
 
 .copy {
-  color: white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -81,10 +66,10 @@
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  padding-top: 0.5em;
 }
 
 .form {
-  color: white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -95,10 +80,22 @@
   -ms-flex-align: center;
   align-items: center;
   text-decoration: none;
+  padding-top: 0.5em;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+  color: #3FB180;
+  -webkit-transition: color ease 1s, border-color ease 1s;
+  transition: color ease 1s, border-color ease 1s;
 }
 
 .logofmp {
-  color: white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -111,16 +108,12 @@
   padding-top: 1.2em;
 }
 
+.logo {
+  color: white;
+}
+
 .adalab {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+  text-align: center;
   padding-top: 0.5em;
 }
 
@@ -214,9 +207,8 @@
   color: #ffffff;
 }
 
-.container-fluid {
-  height: 100vh;
-  background: #DAF7A6;
+.formulary {
+  background-color: #E2D8A3;
 }
 
 .row-formulary {
@@ -246,6 +238,23 @@ label {
 
 .button {
   margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.thanks {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #599675;
+  color: white;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  text-align: center;
+  padding-top: 100px;
 }
 
 body {

@@ -1,53 +1,51 @@
-
- // FOOTER
-
-.footer {
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
+.content {
+	background-color: $backHeaderFooter;
 }
-
-.logo {
-	height: 10px;
-	width: 15px;
-}
-
-
 .container-fluid {
-	height: 35vh;
-	background: purple;
 	width: 100%;
 }
 
 .copy {
-	color: white;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
 
-.form {
-	color: white;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	text-decoration: none;
-
-}
-
-.logofmp {
-	color: white;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	padding-top: 1.2em;
-}
-
-.adalab {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	padding-top: 0.5em;
 }
 
-//FIN footer
+.form {
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+	padding-top: 0.5em;
+}
+
+.link {
+	color: white;
+	text-decoration: none;
+	&:hover {
+		text-decoration: underline;
+		color: $colorGreen;
+		transition: color ease 1s, border-color ease 1s;
+	}
+
+}
+
+.logofmp {
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 1.2em;
+}
+
+.logo {
+	color: white;
+}
+
+.adalab {
+	text-align: center;
+	padding-top: 0.5em;
+}
