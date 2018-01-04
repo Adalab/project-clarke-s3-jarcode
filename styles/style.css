@@ -672,14 +672,28 @@ html {
   margin: 10px;
 }
 
+.book_image {
+  width: 200px;
+  height: 400px;
+  min-width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
 .book_style {
   display: block;
   margin: auto;
   max-width: 250px;
   width: 100%;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
 }
 
 .book_title {
