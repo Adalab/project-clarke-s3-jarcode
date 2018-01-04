@@ -77,6 +77,21 @@
 	background: $backPage;
 	color: $backHeaderFooter;
 	&:hover{
-		background: $backHeaderFooter;			color: $whiteColor;
+		background: $backHeaderFooter;
+		color: $whiteColor;
+	}
+}
+.header_link{
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+	padding-left: 0;
+	width: 100px;
+	height: 40px;
+	background: $backPage;
+	color: $backHeaderFooter;
+	&:hover{
+		background: $backHeaderFooter;
+		color: $whiteColor;
 	}
 }
