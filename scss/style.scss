@@ -4,10 +4,12 @@
 @import "components/newsletter";
 @import "components/typography";
 
+
 @import "core/functions";
 @import "core/mixins";
 @import "core/variables";
 
+@import "layout/bootstrap.min";
 @import "layout/footer";
 @import "layout/grid";
 @import "layout/header";
