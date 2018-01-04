@@ -1479,6 +1479,23 @@ background-repeat: no-repeat;
 
   #navigation {
     display: block;
+    position: static;
+  }
+
+  .menu {
+    background-color: #1E4E5C;
+    width: 100%;
+    position: static;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    z-index: 3;
   }
 }
 
