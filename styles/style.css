@@ -145,12 +145,15 @@
   justify-content: center;
 }/*DESPLEGABLE*/#navigation {
   display: none;
+  position: absolute;
+  left: 0;
+  top: 100%;
 }
 
 .menu {
   list-style: none;
-  width: 100px;
-  margin-top: 10px;
+  width: 115px;
+  position: relative;
 }
 
 .menu_item {
@@ -166,7 +169,6 @@
   color: #ffffff;
   cursor: pointer;
   position: relative;
-  top: 19.5px;
 }
 
 .menu_item:hover {
@@ -174,8 +176,15 @@
   color: #1E4E5C;
 }
 
+.menu_item_submenu .submenu {
+  display: block;
+}
+
 .submenu {
   display: none;
+  position: absolute;
+  left: 100%;
+  top: 0;
 }
 
 .item {
@@ -187,13 +196,10 @@
   align-items: center;
   padding-left: 10px;
   list-style: none;
-  width: 80px;
+  width: 100px;
   height: 40px;
   background: #E2D8A3;
   color: #1E4E5C;
-  position: relative;
-  right: -31px;
-  top: 39.5px;
 }
 
 .item:hover {
@@ -266,6 +272,16 @@ body {
 @media all and (min-width: 570px) {
   .microlog {
     max-width: 300px;
+  }
+}
+
+@media all and (min-width: 600px) {
+  #xButton {
+    display: none;
+  }
+
+  #navigation {
+    display: block;
   }
 }
 
