@@ -263,14 +263,14 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  margin-bottom: 15px;
   list-style: none;
   padding: 0px;
 }
 
-.shop {
+.shop a {
   overflow: hidden;
   display: block;
   background-size: 40px 40px;
