@@ -46,6 +46,96 @@
 #xButton.active span:after {
   -webkit-transform: rotate(-45deg);
   transform: rotate(-45deg);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header_style {
+  margin: 0;
+  background-color: #1E4E5C;
+  height: 100px;
+  position: relative;
+}
+
+.logo_box {
+  min-width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.microlog {
+  display: block;
+  margin: auto;
+  max-width: 250px;
+  width: 100%;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}/*DESPLEGABLE*/#navigation {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 100%;
+}
+
+.menu {
+  list-style: none;
+  width: 115px;
+  position: relative;
+}
+
+.menu_item {
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 10px;
+  background: #1E4E5C;
+  color: #ffffff;
+  cursor: pointer;
+  position: relative;
+}
+
+.menu_item:hover {
+  background: #E2D8A3;
+  color: #1E4E5C;
+}
+
+.menu_item_submenu .submenu {
+  display: block;
+}
+
+.submenu {
+  display: none;
+  position: absolute;
+  left: 100%;
+  top: 0;
+}
+
+.item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 10px;
+  list-style: none;
+  width: 100px;
+  height: 40px;
+  background: #E2D8A3;
+  color: #1E4E5C;
+}
+
+.item:hover {
+  background: #1E4E5C;
+  color: #ffffff;
 }/*!
  * Bootstrap v4.0.0-beta.3 (https://getbootstrap.com)
  * Copyright 2011-2017 The Bootstrap Authors
@@ -5523,96 +5613,6 @@ a.text-dark:focus,a.text-dark:hover {
 
 .adalab {
   padding-top: 0.5em;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-}
-
-.header_style {
-  margin: 0;
-  background-color: #1E4E5C;
-  height: 100px;
-  position: relative;
-}
-
-.logo_box {
-  min-width: 200px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.microlog {
-  display: block;
-  margin: auto;
-  max-width: 250px;
-  width: 100%;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-}/*DESPLEGABLE*/#navigation {
-  display: none;
-  position: absolute;
-  left: 0;
-  top: 100%;
-}
-
-.menu {
-  list-style: none;
-  width: 115px;
-  position: relative;
-}
-
-.menu_item {
-  height: 40px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  padding-left: 10px;
-  background: #1E4E5C;
-  color: #ffffff;
-  cursor: pointer;
-  position: relative;
-}
-
-.menu_item:hover {
-  background: #E2D8A3;
-  color: #1E4E5C;
-}
-
-.menu_item_submenu .submenu {
-  display: block;
-}
-
-.submenu {
-  display: none;
-  position: absolute;
-  left: 100%;
-  top: 0;
-}
-
-.item {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  padding-left: 10px;
-  list-style: none;
-  width: 100px;
-  height: 40px;
-  background: #E2D8A3;
-  color: #1E4E5C;
-}
-
-.item:hover {
-  background: #1E4E5C;
-  color: #ffffff;
 }
 
 .formulary {
