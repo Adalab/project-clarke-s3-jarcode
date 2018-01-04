@@ -5,7 +5,8 @@
 	},
 	"js": {
 		"src": [
-			"js/main.js"
+			"js/main.js",
+			"js/bootstrap.min.js"
 		],
 		"dest": "js/"
 	},
