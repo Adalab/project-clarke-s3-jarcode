@@ -1,8 +1,12 @@
 .book_box{
-	margin-top: 15px;
+	margin-top: 25px;
 	min-width: 200px;
 	margin-left: auto;
 	margin-right: auto;
+	& p{
+		text-align: center;
+		margin: 10px;
+	}
 }
 .book_style {
 	display: block;
@@ -10,11 +14,32 @@
 	max-width: 250px;
 	width: 100%;
 	justify-content: center;
-	& h1{
-		display: flex;
-		justify-content: center;
-	}
-	& p{
-
-	}
+}
+.book_title{
+	display: flex;
+	justify-content: center;
+	margin-top: 10px;
+}
+.shop_web{
+	display: flex;
+	justify-content: center;
+	list-style: none;
+	padding: 0px
+}
+.shop{
+	overflow: hidden;
+	display: block;
+	background-size: 40px 40px;
+	padding-top: 40px;
+	height: 0;
+	width: 40px;
+}
+.amazon{
+	background: url('../images/books/amazon.png');
+}
+.casalibro{
+	background: url('../images/books/casalibro.png');
+}
+.fnac{
+	background: url('../images/books/fnac.png');
 }
