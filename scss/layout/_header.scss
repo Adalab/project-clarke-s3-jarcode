@@ -33,6 +33,7 @@
 	position: absolute;
 	left: 0;
 	top: 100%;
+	z-index: 1;
 	@media all and (min-width: 600px){
 		display: block;
 	}

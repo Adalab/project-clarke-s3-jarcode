@@ -1,4 +1,4 @@
-
+@import "layout/bootstrap-grid";
 
 @import "components/buttons";
 @import "components/forms";
@@ -12,9 +12,10 @@
 @import "core/variables";
 
 
+@import "layout/header";
 @import "layout/footer";
 @import "layout/grid";
-@import "layout/header";
+
 
 @import "pages/about-us";
 @import "pages/books";
