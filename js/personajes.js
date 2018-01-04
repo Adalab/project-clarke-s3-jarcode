@@ -1,53 +1,3 @@
-'use strict';
-var secondMenu = document.getElementsByClassName('menu_item');
-var navMenu = document.getElementById( "navigation" );
-
-//header, Animation button
-document.getElementById( "xButton" )
-.addEventListener( "click", function() {
-	this.classList.toggle( "active" );
-});
-
-//open menu header
-function openClose() {
-	if (navMenu.style.display == 'block'){
-		navMenu.style.display ='none';
-	} else {
-		navMenu.style.display = 'block';
-	}
-}
-
-navMenu.addEventListener('click', openClose);
-
-//open second menu header
-function openMenu(evt) {
-	evt.stopPropagation();
-	//evt.currentTarget.childNodes[1].style.display = 'block';
-	console.log('hola');
-	resetMenu();
-	evt.currentTarget.classList.add('menu_item_submenu');
-}
-
-for (var i = 0; i < secondMenu.length; i++){
-	secondMenu[i].addEventListener('click', openMenu);
-}
-
-function resetMenu(){
-	for (var i = 0; i < secondMenu.length; i++){
-		secondMenu[i].classList.remove('menu_item_submenu');
-	}
-}
-var secondMenu = document.getElementsByClassName('menu_item');
-for (var i = 0; i < secondMenu.length; i++) secondMenu[i].addEventListener('click', openMenu);
-
-// Alert feedback contacto
-var shower = document.getElementById('fd');
-var feedback = document.querySelector('.thanks');
-function alertHandler (){
-	 feedback.classList.add('show');
-}
-shower.addEventListener('click', alertHandler);
-
 var body = document.querySelector("body");
 var gallery = document.querySelector(".gallery");
 var videoItems = gallery.querySelectorAll(".gallery__item--video");
@@ -84,6 +34,20 @@ function openVideoModal(e) {
 
 }
 
+function openImageModal(e) {
+  console.log('click');
+  var imageSRC = e.currentTarget.getAttribute("data-src");
+  var imageContent = '<iframe class="modal__imagecontent" src="' + imageSRC + '" frameborder="0" allowfullscreen></iframe>';
+  var imageModal = createModal(imageContent, "image");
+  body.insertAdjacentHTML( 'beforeend', imageModal );
+  var overlay = body.querySelector('.modal__overlay');
+  var closeBTN = body.querySelector('.modal__closeBTN');
+
+  overlay.addEventListener('click', closeModal);
+  closeBTN.addEventListener('click', closeModal);
+
+}
+
 function closeModal() {
   var currentModal = document.querySelector('.modal');
   currentModal.remove();
@@ -101,3 +65,5 @@ for (var v = 0; v < videoItems.length; v++) {
 for (var i = 0; i < imageItems.length; i++) {
   imageItems[i].addEventListener("click", openImageModal);
 }
+
+//# sourceMappingURL=main.min.js.map
