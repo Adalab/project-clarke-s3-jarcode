@@ -1,5 +1,5 @@
 .formulary {
-	background-color: $backPage;
+	background-color: $whiteColor;
 }
 .row-formulary {
 	height: 100%;
@@ -15,13 +15,38 @@ input, textarea {
 	border-radius: 5px;
 }
 
-label {
-	padding-top: 10px;
+.name, .lastname {
+	padding-top: 20px;
+	padding-bottom: 10px;
+	margin-right: 105px;
 }
 
-.button {
+.mail {
+	padding-top: 20px;
+	padding-bottom: 10px;
+	margin-right: 120px;
+}
+.phone {
+	padding-top: 20px;
+	padding-bottom: 10px;
+	margin-right: 120px;
+}
+.comment {
+	padding-top: 20px;
+	padding-bottom: 10px;
+	margin-right: 87px;
+}
+
+.sendfeedback {
 	margin-top: 10px;
-	margin-bottom: 10px;
+	margin-bottom: 100px;
+	margin-right: 105px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top:5px;
+	padding-bottom: 5px;
+	background-color: $colorGreen;
+	color: $whiteColor;
 
 }
 
@@ -30,7 +55,7 @@ label {
 	position: fixed;
 	top: 0;
 	left: 0;
-	background-color: $backPage;
+	background-color: $whiteColor;
 	color: white;
 	width: 100vw;
 	height: 100vh;
@@ -38,4 +63,38 @@ label {
 	transition: all .3s;
 	text-align: center;
 	padding-top: 100px;
+}
+
+
+.thanks{
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: $whiteColor;
+	color: green;
+	width: 100vw;
+	height: 100vh;
+	z-index: 1;
+	transition: all .3s;
+	text-align: center;
+	padding-top: 100px;
+}
+.show{
+	display: block;
+}
+
+.show h2{
+	font-size: 34px;
+	margin-top: 34px;
+}
+.thanks.show p {
+	font-size: 20px;
+	margin-top: 20px;
+}
+
+.logo_thanks{
+	border-radius: 100%;
+	width: 200px;
+	margin-top: 28px;
 }
