@@ -40,13 +40,8 @@ function resetMenu(){
 var secondMenu = document.getElementsByClassName('menu_item');
 for (var i = 0; i < secondMenu.length; i++) secondMenu[i].addEventListener('click', openMenu);
 
-// Alert feedback contacto
-var shower = document.getElementById('fd');
-var feedback = document.querySelector('.thanks');
-function alertHandler (){
-	 feedback.classList.add('show');
-}
-shower.addEventListener('click', alertHandler);
+
+
 
 var body = document.querySelector("body");
 var gallery = document.querySelector(".gallery");
@@ -101,3 +96,12 @@ for (var v = 0; v < videoItems.length; v++) {
 for (var i = 0; i < imageItems.length; i++) {
   imageItems[i].addEventListener("click", openImageModal);
 }
+
+
+// Alert feedback contacto
+var shower = document.getElementById('fd');
+var feedback = document.querySelector('.thanks');
+function showAlert (){
+	 feedback.classList.add('show');
+}
+shower.addEventListener('click', showAlert);

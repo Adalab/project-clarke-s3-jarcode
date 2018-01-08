@@ -33,14 +33,25 @@
 	position: absolute;
 	left: 0;
 	top: 100%;
+	z-index: 1;
 	@media all and (min-width: 600px){
 		display: block;
+		position: static;
 	}
 }
 .menu {
 	list-style: none;
 	width: 115px;
 	position: relative;
+	@media all and (min-width: 600px){
+		background-color: $backHeaderFooter;
+		width: 100%;
+		position: static;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		z-index: 3;
+	}
 }
 .menu_item {
 	height: 40px;
@@ -77,6 +88,21 @@
 	background: $backPage;
 	color: $backHeaderFooter;
 	&:hover{
-		background: $backHeaderFooter;			color: $whiteColor;
+		background: $backHeaderFooter;
+		color: $whiteColor;
+	}
+}
+.header_link{
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+	padding-left: 0;
+	width: 100px;
+	height: 40px;
+	background: $backPage;
+	color: $backHeaderFooter;
+	&:hover{
+		background: $backHeaderFooter;
+		color: $whiteColor;
 	}
 }
