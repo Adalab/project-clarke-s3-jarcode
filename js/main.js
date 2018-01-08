@@ -2,9 +2,8 @@
 var secondMenu = document.getElementsByClassName('menu_item');
 var navMenu = document.getElementById( "navigation" );
 
-//header, Animation button
-document.getElementById( "xButton" )
-.addEventListener( "click", function() {
+header, Animation button
+document.getElementById( "xButton" ).addEventListener( "click", function() {
 	this.classList.toggle( "active" );
 });
 
@@ -16,8 +15,9 @@ function openClose() {
 		navMenu.style.display = 'block';
 	}
 }
-
-navMenu.addEventListener('click', openClose);
+if (navMenu != null) {
+	navMenu.addEventListener('click', openClose);
+}
 
 //open second menu header
 function openMenu(evt) {
@@ -96,12 +96,3 @@ for (var v = 0; v < videoItems.length; v++) {
 for (var i = 0; i < imageItems.length; i++) {
   imageItems[i].addEventListener("click", openImageModal);
 }
-
-
-// Alert feedback contacto
-var shower = document.getElementById('fd');
-var feedback = document.querySelector('.thanks');
-function showAlert (){
-	 feedback.classList.add('show');
-}
-shower.addEventListener('click', showAlert);
