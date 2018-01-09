@@ -14,13 +14,13 @@
 .copy {
 
 	color: white;
-	padding-top: 0.5em;
+	padding-top: 1.5em;
 }
 
 .form {
 
 	text-decoration: none;
-	padding-top: 0.5em;
+	padding-top: 1.5em;
 }
 
 .link {
@@ -35,15 +35,18 @@
 }
 
 .logofmp {
-
-		padding-top: 1.2em;
+	min-width: 100px;
 }
 
 .logo {
-	color: white;
+  padding-top: 1.5em;
+	width: 100%;
+	max-width: 100px;
+
 }
 
 .adalab {
-
-	padding-top: 0.5em;
+  padding-top: 0.5em;
+	width: 100%;
+	max-width: 250px;
 }
