@@ -1,4 +1,4 @@
-'use strict';
+/*'use strict';
 
 var body = document.querySelector("body");
 var gallery = document.querySelector(".gallery");
@@ -53,3 +53,4 @@ for (var v = 0; v < videoItems.length; v++) {
 for (var i = 0; i < imageItems.length; i++) {
   imageItems[i].addEventListener("click", openImageModal);
 }
+*/
