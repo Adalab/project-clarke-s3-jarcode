@@ -505,6 +505,7 @@ html {
   background-color: #1E4E5C;
   height: 100px;
   position: relative;
+  z-index: 1;
 }
 
 .logo_box {
@@ -540,6 +541,9 @@ html {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
@@ -675,6 +679,7 @@ html {
 .book_box p {
   text-align: center;
   margin: 10px;
+  height: 125px;
 }
 
 .book_image {
@@ -867,6 +872,34 @@ input,textarea {
   border-radius: 100%;
   width: 200px;
   margin-top: 28px;
+}
+
+.box_micromach {
+  margin: 50px 120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.microbox {
+  border-radius: 15px;
+  margin-left: 15px;
+  padding: 20px 20px;
+  width: 354px;
+  border: none;
+  background-color: #E2D8A3;
+}
+
+.microbox ul {
+  padding-left: 35px;
+  list-style: none;
+}
+
+.microbox ul li {
+  padding-left: 20px;
+  margin: 1em;
+  background: url("../images/l5.png") no-repeat left top;
+  background-size: 20px auto;
 }
 
 body {
@@ -1576,7 +1609,21 @@ background-repeat: no-repeat;
     flex-direction: row;
     -ms-flex-pack: distribute;
     justify-content: space-around;
-    z-index: 3;
+  }
+
+  .menu_item {
+    width: 115px;
+  }
+
+  .submenu {
+    left: 0;
+    top: 100%;
+    z-index: 1;
+    width: 115px;
+  }
+
+  .item {
+    width: 115px;
   }
 }
 
