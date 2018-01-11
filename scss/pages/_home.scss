@@ -1,12 +1,22 @@
 .box_micromach {
 	margin: 50px 120px;
 	display: flex;
-	flex-wrap: wrap;
 }
 .microbox {
-	padding: 20px 0;
-	width: 31.5%;
+	border-radius: 15px;
+	margin-left: 15px;
+	padding: 20px 20px;
+	width: 354px;
 	border: none;
 	background-color: $backPage;
-
+	 ul {
+		padding-left: 35px;
+		list-style: none;
+		li{
+			padding-left: 20px;
+			margin: 1em;
+			background: url('../images/l5.png') no-repeat left top;
+			background-size: 20px auto;
+		}
+	}
 }
