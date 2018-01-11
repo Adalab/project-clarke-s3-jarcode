@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
 #xButton {
   position: absolute;
   left: 3%;
@@ -463,6 +465,42 @@ input,textarea {
   margin: 1em;
   background: url("../images/l5.png") no-repeat left top;
   background-size: 20px auto;
+}
+
+.networks {
+  margin: 0;
+  padding: 2px;
+}
+
+.networks p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #1E4E5C;
+  font-weight: bold;
+  margin: 0;
+}
+
+.nw_ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.nw_ul li {
+  font-size: 70px;
+  padding: 5px;
 }
 
 body {
