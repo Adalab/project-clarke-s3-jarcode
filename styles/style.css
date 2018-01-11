@@ -632,12 +632,12 @@ html {
 
 .copy {
   color: white;
-  padding-top: 1.5em;
+  padding-top: 2.5em;
 }
 
 .form {
   text-decoration: none;
-  padding-top: 1.5em;
+  padding-top: 2.5em;
 }
 
 .link {
@@ -663,10 +663,12 @@ html {
 }
 
 .adalab {
-  padding-top: 0.5em;
+  min-width: 70px;
+}
+
+.logoAdalab {
   width: 100%;
-  max-width: 250px;
-  margin-left: 100px;
+  min-width: 70px;
 }
 
 .book_box {
@@ -776,50 +778,52 @@ input,textarea {
 .name,.lastname {
   padding-top: 20px;
   padding-bottom: 10px;
-  margin-right: 105px;
+  margin-right: 124px;
 }
 
 .mail {
   padding-top: 20px;
   padding-bottom: 10px;
-  margin-right: 120px;
+  margin-right: 144px;
 }
 
 .phone {
   padding-top: 20px;
   padding-bottom: 10px;
-  margin-right: 120px;
+  margin-right: 130px;
 }
 
 .comment {
   padding-top: 20px;
   padding-bottom: 10px;
-  margin-right: 87px;
+  margin-right: 95px;
 }
 
 .logofmp {
-  min-width: 100px;
+  min-width: 70px;
 }
 
 .logo {
   width: 100%;
-  max-width: 100px;
+  max-width: 70px;
 }
 
 .adalab {
   padding-top: 0.5em;
+  margin-bottom: 15px;
 }
 
 .sendfeedback {
   margin-top: 10px;
   margin-bottom: 100px;
-  margin-right: 105px;
+  margin-right: 85px;
   padding-left: 10px;
   padding-right: 10px;
   padding-top: 5px;
   padding-bottom: 5px;
   background-color: #3FB180;
   color: #ffffff;
+  width: 100px;
 }
 
 .thanks {
@@ -1185,7 +1189,33 @@ background-repeat: no-repeat;
 	background-size: contain;
 	background-repeat: no-repeat;
 }
-*/@media all and (min-width: 570px) {
+*/@media all and (min-width: 500px) {
+  input,textarea {
+    width: 350px;
+  }
+
+  .name,.lastname {
+    margin-right: 270px;
+  }
+
+  .mail {
+    margin-right: 280px;
+  }
+
+  .phone {
+    margin-right: 280px;
+  }
+
+  .comment {
+    margin-right: 255px;
+  }
+
+  .sendfeedback {
+    margin-right: 255px;
+  }
+}
+
+@media all and (min-width: 570px) {
   .microlog {
     max-width: 300px;
   }
