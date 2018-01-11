@@ -9,7 +9,12 @@
 	width: 354px;
 	border: none;
 	background-color: $backPage;
-	 ul {
+	font-size: 14px;
+	h2, h3 {
+		font-size: 20px;
+		font-weight: bold;
+	}
+	ul {
 		padding-left: 35px;
 		list-style: none;
 		li{
