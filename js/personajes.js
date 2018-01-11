@@ -37,7 +37,7 @@ function openVideoModal(e) {
 function openImageModal(e) {
   console.log('click');
   var imageSRC = e.currentTarget.getAttribute("data-src");
-  var imageContent = '<iframe class="modal__imagecontent" src="' + imageSRC + '" frameborder="0" allowfullscreen></iframe>';
+  var imageContent = '<img class="modal__imagecontent" src="' + imageSRC + '">';
   var imageModal = createModal(imageContent, "image");
   body.insertAdjacentHTML( 'beforeend', imageModal );
   var overlay = body.querySelector('.modal__overlay');
@@ -53,9 +53,7 @@ function closeModal() {
   currentModal.remove();
 }
 
-function openImageModal(e) {
-  console.log(">> " + e.currentTarget.getAttribute("data-src"));
-}
+
 
 
 for (var v = 0; v < videoItems.length; v++) {
