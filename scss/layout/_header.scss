@@ -8,6 +8,7 @@
 	background-color: $backHeaderFooter;
 	height: 100px;
 	position: relative;
+	z-index: 1;
 }
 .logo_box{
 	min-width: 200px;
@@ -50,12 +51,12 @@
 		display: flex;
 		flex-direction: row;
 		justify-content: space-around;
-		z-index: 3;
 	}
 }
 .menu_item {
 	height: 40px;
 	display: flex;
+	justify-content: center;
 	align-items: center;
 	padding-left: 10px;
   background: $backHeaderFooter;
@@ -65,6 +66,9 @@
 	&:hover{
 		background: $backPage;
 		color: $backHeaderFooter;
+	}
+	@media all and (min-width: 600px){
+		width: 115px;
 	}
 }
 .menu_item_submenu{
@@ -77,6 +81,12 @@
 	position: absolute;
 	left: 100%;
 	top: 0;
+	@media all and (min-width: 600px){
+		left: 0;
+		top: 100%;
+		z-index: 1;
+		width: 115px;
+	}
 }
 .item{
 	display: flex;
@@ -90,6 +100,9 @@
 	&:hover{
 		background: $backHeaderFooter;
 		color: $whiteColor;
+	}
+	@media all and (min-width: 600px){
+		width: 115px;
 	}
 }
 .header_link{
