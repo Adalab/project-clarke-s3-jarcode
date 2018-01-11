@@ -1,0 +1,24 @@
+.motivation_container {
+	height: $heightMotivationSection;
+	background-color: $colorGreen;
+
+}
+.carousel_section {
+	margin: 0px;
+}
+.carousel_container {
+
+}
+.item1,
+.item2 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	text-align: center;
+	background-color: $colorGreen;
+
+}
+.concepto {
+	border: 1px solid black;
+	border-radius: 5%;
+}
