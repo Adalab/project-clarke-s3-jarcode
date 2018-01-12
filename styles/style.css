@@ -57,6 +57,10 @@
   padding: 0;
 }
 
+.header_link {
+  text-decoration: none;
+}
+
 .header_style {
   margin: 0;
   background-color: #1E4E5C;
@@ -165,6 +169,7 @@
 .header_link:hover {
   background: #1E4E5C;
   color: #ffffff;
+  text-decoration: none;
 }
 
 .content {
@@ -786,7 +791,47 @@ background-repeat: no-repeat;
 	background-size: contain;
 	background-repeat: no-repeat;
 }
-*/@media all and (min-width: 570px) {
+*/.container-fluid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #EAEEF0;
+}
+
+.test_title {
+  width: 100%;
+  background-color: #E1B753;
+  text-align: center;
+  padding: 10px;
+}
+
+.odd {
+  width: 80%;
+  padding: 10px;
+  border-bottom: 2px solid #1E4E5C;
+  margin-top: 10px;
+}
+
+.even {
+  width: 80%;
+  padding: 10px;
+  border-bottom: 2px solid #1E4E5C;
+  margin-top: 10px;
+}
+
+.questions {
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+
+@media all and (min-width: 570px) {
   .microlog {
     max-width: 300px;
   }
