@@ -151,113 +151,15 @@ body {
   font-size: 20px;
 }
 
-/*body {
-margin:0;
-height: 100vh;
-width: 100%;
+.image-size {
+	width: 100%;
+	height: 100%;
+	position: absolute;
 }
 
-.wrapper {
-	height: 100vh;
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-  grid-gap: 5px;
-	background-color: #DAF7A6;
+.image-size2 {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	margin: auto;
 }
-
-.imagen {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-.imagen1 {
-	background-image: url(/images/micromachismo.jpg);
-	background-position: center center;
-	background-size: auto;
-	background-repeat: no-repeat;
-	grid-column: 1 / 3;
-	grid-row: 1 / 3;
-	margin: 10px;
-}
-.imagen2 {
-	background-image: url(/images/juegos3-4años.jpg);
-	background-position: center center;
-	background-size: contain;
-	background-repeat: no-repeat;
-	grid-column: 3 / 4;
-	grid-row: 1 / 2;
-}
-.imagen3 {
-	background-image: url(/images/cerveza.jpg);
-background-position: center center;
-background-size: contain;
-background-repeat: no-repeat;
-	grid-column: 3 / 4;
-	grid-row: 2 / 3 ;
-}
-.imagen4 {
-	background-image: url(/images/mujerbocadillos.jpg);
-	background-position: center center;
-	background-size: contain;
-	background-repeat: no-repeat;
-	grid-column: 1 / 2 ;
-	grid-row: 3 / 5;
-}
-.imagen5 {
-	background-image: url(/images/jedi.png);
-	background-position: center center;
-	background-size: contain;
-	background-repeat: no-repeat;
-	grid-column: 2 / 3 ;
-	grid-row: 3 / 4;
-}
-.imagen6 {
-	background-image: url(/images/sueldos.jpg);
-	background-position: center center;
-	background-size: contain;
-	background-repeat: no-repeat;
-	grid-column: 3 / 4;
-	grid-row: 3 / 4;
-}
-.imagen7 {
-	background-image: url(/images/juguetesgenitales.jpg);
-background-position: center center;
-background-size: contain;
-background-repeat: no-repeat;
-	grid-column: 2 / 3;
-	grid-row: 4 / 5 ;
-}
-.imagen8 {
-	background-image: url(/images/forgesamadecasa.jpg);
-background-position: center center;
-background-size: contain;
-background-repeat: no-repeat;
-	grid-column: 3 / 4;
-	grid-row: 4 / 5;
-}
-.imagen9 {
-	background-image: url(/images/lavadora.jpg);
-background-position: center center;
-background-size: contain;
-background-repeat: no-repeat;
-	grid-column: 1 / 2 ;
-	grid-row: 5 / 6 ;
-}
-.imagen10 {
-	background-image: url(/images/moderno.jpg);
-	background-position: center center;
-	background-size: contain;
-	background-repeat: no-repeat;
-	grid-column: 2 / 4 ;
-	grid-row: 5 / 6;
-}
-
-.slide {
-	background-image: url(/images/jedi.png);
-	background-position: center center;
-	background-size: contain;
-	background-repeat: no-repeat;
-}
-*/

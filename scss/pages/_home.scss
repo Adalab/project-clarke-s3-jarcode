@@ -28,22 +28,27 @@
 .networks {
 	margin: 0;
 	padding: 2px;
+	justify-content: center;
 	p {
 		display: flex;
 		justify-content: center;
+		text-align: center;
 		color: $backHeaderFooter;
 		font-weight: bold;
 		margin: 0;
 	}
 }
 .nw_ul {
-
 	list-style: none;
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 	li {
-		font-size: 70px;
+		font-size: 50px;
 		padding: 5px;
+		@media all and (min-width: 780px){
+			font-size: 65px;
+		}
 	}
+
 }
