@@ -284,6 +284,7 @@
   margin-bottom: 15px;
   list-style: none;
   padding: 0px;
+  padding-top: 35px;
 }
 
 .shop a {
@@ -470,6 +471,9 @@ input,textarea {
 .networks {
   margin: 0;
   padding: 2px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .networks p {
@@ -479,6 +483,7 @@ input,textarea {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
+  text-align: center;
   color: #1E4E5C;
   font-weight: bold;
   margin: 0;
@@ -499,7 +504,7 @@ input,textarea {
 }
 
 .nw_ul li {
-  font-size: 70px;
+  font-size: 50px;
   padding: 5px;
 }
 
@@ -786,7 +791,23 @@ background-repeat: no-repeat;
 	background-size: contain;
 	background-repeat: no-repeat;
 }
-*/@media all and (min-width: 570px) {
+*/.comic {
+  border: solid 5px;
+  border-color: #E1B753;
+}
+
+.imgcomic {
+  display: block;
+  margin: 10px auto;
+  max-width: 100%;
+}
+
+.resources {
+  font-size: 10px;
+  color: #1E4E5C;
+}
+
+@media all and (min-width: 570px) {
   .microlog {
     max-width: 300px;
   }
@@ -830,6 +851,12 @@ background-repeat: no-repeat;
 
   .item {
     width: 115px;
+  }
+}
+
+@media all and (min-width: 780px) {
+  .nw_ul li {
+    font-size: 65px;
   }
 }
 
