@@ -29,6 +29,7 @@
 	&:hover {
 		text-decoration: underline;
 		color: $colorGreen;
+		font-size: 24px;
 		transition: color ease 1s, border-color ease 1s;
 	}
 
@@ -42,7 +43,6 @@
   padding-top: 1.5em;
 	width: 100%;
 	max-width: 70px;
-
 }
 
 .adalab {

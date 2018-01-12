@@ -53,6 +53,9 @@ input, textarea {
 	}
 }
 
+.error{
+	color: red;
+}
 .logofmp {
 	min-width: 70px;
 }
@@ -80,6 +83,12 @@ input, textarea {
 	background-color: $colorGreen;
 	color: $whiteColor;
 	width: 100px;
+		&:hover {
+		background: $whiteColor;
+		color: $colorGreen;
+		font-size: 20px;
+	 	box-shadow: inset 0 0 0 3px $colorGreen;
+	}
 	@media all and (min-width: 500px){
 		margin-right: 255px;
 	}
@@ -115,7 +124,25 @@ input, textarea {
 	transition: all .3s;
 	text-align: center;
 	padding-top: 100px;
+	animation-duration: 5s;
+  animation-name: intro;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+
 }
+@keyframes intro {
+  from {
+    transform: scale(10) rotate(-150deg);
+    opacity: 0;
+    color: white;
+  }
+
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
 .show{
 	display: block;
 }
@@ -130,7 +157,9 @@ input, textarea {
 }
 
 .logo_thanks{
-	border-radius: 100%;
-	width: 200px;
+	width: 285px;
 	margin-top: 28px;
+	@media all and (min-width: 500px){
+		width: 425px;
+	}
 }
