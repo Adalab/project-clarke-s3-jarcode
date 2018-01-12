@@ -189,12 +189,12 @@
 
 .copy {
   color: white;
-  padding-top: 1.5em;
+  padding-top: 2.5em;
 }
 
 .form {
   text-decoration: none;
-  padding-top: 1.5em;
+  padding-top: 2.5em;
 }
 
 .link {
@@ -205,6 +205,7 @@
 .link:hover {
   text-decoration: underline;
   color: #3FB180;
+  font-size: 24px;
   -webkit-transition: color ease 1s, border-color ease 1s;
   transition: color ease 1s, border-color ease 1s;
 }
@@ -220,10 +221,12 @@
 }
 
 .adalab {
-  padding-top: 0.5em;
+  min-width: 70px;
+}
+
+.logoAdalab {
   width: 100%;
-  max-width: 250px;
-  margin-left: 100px;
+  min-width: 70px;
 }
 
 .book_box {
@@ -335,50 +338,64 @@ input,textarea {
 .name,.lastname {
   padding-top: 20px;
   padding-bottom: 10px;
-  margin-right: 105px;
+  margin-right: 124px;
 }
 
 .mail {
   padding-top: 20px;
   padding-bottom: 10px;
-  margin-right: 120px;
+  margin-right: 144px;
 }
 
 .phone {
   padding-top: 20px;
   padding-bottom: 10px;
-  margin-right: 120px;
+  margin-right: 130px;
 }
 
 .comment {
   padding-top: 20px;
   padding-bottom: 10px;
-  margin-right: 87px;
+  margin-right: 95px;
+}
+
+.error {
+  color: red;
 }
 
 .logofmp {
-  min-width: 100px;
+  min-width: 70px;
 }
 
 .logo {
   width: 100%;
-  max-width: 100px;
+  max-width: 70px;
 }
 
 .adalab {
   padding-top: 0.5em;
+  margin-bottom: 15px;
 }
 
 .sendfeedback {
   margin-top: 10px;
   margin-bottom: 100px;
-  margin-right: 105px;
+  margin-right: 85px;
   padding-left: 10px;
   padding-right: 10px;
   padding-top: 5px;
   padding-bottom: 5px;
   background-color: #3FB180;
   color: #ffffff;
+  width: 100px;
+}
+
+.sendfeedback:hover {
+  background: #ffffff;
+  color: #3FB180;
+  font-size: 20px;
+  -webkit-box-shadow: inset 0 0 0 3px #3FB180;
+  box-shadow: inset 0 0 0 3px #3FB180;
 }
 
 .thanks {
@@ -411,6 +428,14 @@ input,textarea {
   transition: all .3s;
   text-align: center;
   padding-top: 100px;
+  -webkit-animation-duration: 5s;
+  animation-duration: 5s;
+  -webkit-animation-name: intro;
+  animation-name: intro;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
 }
 
 .show {
@@ -428,8 +453,7 @@ input,textarea {
 }
 
 .logo_thanks {
-  border-radius: 100%;
-  width: 200px;
+  width: 285px;
   margin-top: 28px;
 }
 
@@ -792,7 +816,37 @@ background-repeat: no-repeat;
 	background-size: contain;
 	background-repeat: no-repeat;
 }
-*/@media all and (min-width: 570px) {
+*/@media all and (min-width: 500px) {
+  input,textarea {
+    width: 350px;
+  }
+
+  .name,.lastname {
+    margin-right: 270px;
+  }
+
+  .mail {
+    margin-right: 280px;
+  }
+
+  .phone {
+    margin-right: 280px;
+  }
+
+  .comment {
+    margin-right: 255px;
+  }
+
+  .sendfeedback {
+    margin-right: 255px;
+  }
+
+  .logo_thanks {
+    width: 425px;
+  }
+}
+
+@media all and (min-width: 570px) {
   .microlog {
     max-width: 300px;
   }
@@ -842,6 +896,36 @@ background-repeat: no-repeat;
 @media all and (min-width: 1000px) {
   .microlog {
     max-width: 340px;
+  }
+}
+
+@-webkit-keyframes intro {
+  from {
+    -webkit-transform: scale(10) rotate(-150deg);
+    transform: scale(10) rotate(-150deg);
+    opacity: 0;
+    color: white;
+  }
+
+  to {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes intro {
+  from {
+    -webkit-transform: scale(10) rotate(-150deg);
+    transform: scale(10) rotate(-150deg);
+    opacity: 0;
+    color: white;
+  }
+
+  to {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
   }
 }
 

@@ -13,56 +13,85 @@
 
 input, textarea {
 	border-radius: 5px;
+
+	@media all and (min-width: 500px){
+		width: 350px;
+	}
 }
 
 .name, .lastname {
 	padding-top: 20px;
 	padding-bottom: 10px;
-	margin-right: 105px;
+	margin-right: 124px;
+	@media all and (min-width: 500px){
+		margin-right: 270px;
+	}
 }
 
 .mail {
 	padding-top: 20px;
 	padding-bottom: 10px;
-	margin-right: 120px;
+	margin-right: 144px;
+	@media all and (min-width: 500px){
+		margin-right: 280px;
+	}
 }
 .phone {
 	padding-top: 20px;
 	padding-bottom: 10px;
-	margin-right: 120px;
+	margin-right: 130px;
+	@media all and (min-width: 500px){
+		margin-right: 280px;
+	}
 }
 .comment {
 	padding-top: 20px;
 	padding-bottom: 10px;
-	margin-right: 87px;
+	margin-right: 95px;
+	@media all and (min-width: 500px){
+		margin-right: 255px;
+	}
 }
 
+.error{
+	color: red;
+}
 .logofmp {
-	min-width: 100px;
+	min-width: 70px;
 }
 
 .logo {
-  // padding-top: 1.2em;
-	width: 100%;
-	max-width: 100px;
+  width: 100%;
+	max-width: 70px;
 
 }
 
 .adalab {
   padding-top: 0.5em;
+	margin-bottom: 15px;
 }
 
 
 .sendfeedback {
 	margin-top: 10px;
 	margin-bottom: 100px;
-	margin-right: 105px;
+	margin-right: 85px;
 	padding-left: 10px;
 	padding-right: 10px;
 	padding-top:5px;
 	padding-bottom: 5px;
 	background-color: $colorGreen;
 	color: $whiteColor;
+	width: 100px;
+		&:hover {
+		background: $whiteColor;
+		color: $colorGreen;
+		font-size: 20px;
+	 	box-shadow: inset 0 0 0 3px $colorGreen;
+	}
+	@media all and (min-width: 500px){
+		margin-right: 255px;
+	}
 
 }
 
@@ -95,7 +124,25 @@ input, textarea {
 	transition: all .3s;
 	text-align: center;
 	padding-top: 100px;
+	animation-duration: 5s;
+  animation-name: intro;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+
 }
+@keyframes intro {
+  from {
+    transform: scale(10) rotate(-150deg);
+    opacity: 0;
+    color: white;
+  }
+
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
 .show{
 	display: block;
 }
@@ -110,7 +157,9 @@ input, textarea {
 }
 
 .logo_thanks{
-	border-radius: 100%;
-	width: 200px;
+	width: 285px;
 	margin-top: 28px;
+	@media all and (min-width: 500px){
+		width: 425px;
+	}
 }
