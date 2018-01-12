@@ -61,7 +61,12 @@
   margin: 0px;
 }
 
-.item1,.item2 {
+.firstslide {
+  width: 100%;
+  height: 400px;
+}
+
+.secondslide {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -69,15 +74,26 @@
   -webkit-box-direction: normal;
   -ms-flex-direction: row;
   flex-direction: row;
-  -ms-flex-pack: distribute;
-  justify-content: space-around;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   text-align: center;
   background-color: #3FB180;
+  width: 100%;
+  height: 400px;
 }
 
 .concepto {
   border: 1px solid black;
   border-radius: 5%;
+}
+
+.threelide {
+  background-image: url(../images/piropo.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 400px;
 }
 
 * {

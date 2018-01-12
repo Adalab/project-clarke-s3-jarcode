@@ -9,16 +9,31 @@
 .carousel_container {
 
 }
-.item1,
-.item2 {
+.firstslide {
+	width: 100%;
+	height: 400px;
+}
+.secondslide {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-around;
+	justify-content: center;
 	text-align: center;
 	background-color: $colorGreen;
+	width: 100%;
+	height: 400px;
+}
+.item1,
+.item2 {
 
 }
 .concepto {
 	border: 1px solid black;
 	border-radius: 5%;
+}
+.threelide {
+	background-image: url(../images/piropo.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 100%;
+	height: 400px;
 }
