@@ -14,13 +14,13 @@
 .copy {
 
 	color: white;
-	padding-top: 1.5em;
+	padding-top: 2.5em;
 }
 
 .form {
 
 	text-decoration: none;
-	padding-top: 1.5em;
+	padding-top: 2.5em;
 }
 
 .link {
@@ -29,6 +29,7 @@
 	&:hover {
 		text-decoration: underline;
 		color: $colorGreen;
+		font-size: 24px;
 		transition: color ease 1s, border-color ease 1s;
 	}
 
@@ -42,12 +43,15 @@
   padding-top: 1.5em;
 	width: 100%;
 	max-width: 70px;
-
 }
 
 .adalab {
-  padding-top: 0.5em;
+	min-width: 70px;
+
+}
+
+.logoAdalab {
 	width: 100%;
-	max-width: 250px;
-	margin-left: 100px;
+	min-width: 70px;
+
 }

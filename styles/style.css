@@ -1,5 +1,3 @@
-@charset "UTF-8";
-
 @import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
 
 #xButton {
@@ -189,12 +187,12 @@
 
 .copy {
   color: white;
-  padding-top: 1.5em;
+  padding-top: 2.5em;
 }
 
 .form {
   text-decoration: none;
-  padding-top: 1.5em;
+  padding-top: 2.5em;
 }
 
 .link {
@@ -205,6 +203,7 @@
 .link:hover {
   text-decoration: underline;
   color: #3FB180;
+  font-size: 24px;
   -webkit-transition: color ease 1s, border-color ease 1s;
   transition: color ease 1s, border-color ease 1s;
 }
@@ -220,10 +219,12 @@
 }
 
 .adalab {
-  padding-top: 0.5em;
+  min-width: 70px;
+}
+
+.logoAdalab {
   width: 100%;
-  max-width: 250px;
-  margin-left: 100px;
+  min-width: 70px;
 }
 
 .book_box {
@@ -336,50 +337,64 @@ input,textarea {
 .name,.lastname {
   padding-top: 20px;
   padding-bottom: 10px;
-  margin-right: 105px;
+  margin-right: 124px;
 }
 
 .mail {
   padding-top: 20px;
   padding-bottom: 10px;
-  margin-right: 120px;
+  margin-right: 144px;
 }
 
 .phone {
   padding-top: 20px;
   padding-bottom: 10px;
-  margin-right: 120px;
+  margin-right: 130px;
 }
 
 .comment {
   padding-top: 20px;
   padding-bottom: 10px;
-  margin-right: 87px;
+  margin-right: 95px;
+}
+
+.error {
+  color: red;
 }
 
 .logofmp {
-  min-width: 100px;
+  min-width: 70px;
 }
 
 .logo {
   width: 100%;
-  max-width: 100px;
+  max-width: 70px;
 }
 
 .adalab {
   padding-top: 0.5em;
+  margin-bottom: 15px;
 }
 
 .sendfeedback {
   margin-top: 10px;
   margin-bottom: 100px;
-  margin-right: 105px;
+  margin-right: 85px;
   padding-left: 10px;
   padding-right: 10px;
   padding-top: 5px;
   padding-bottom: 5px;
   background-color: #3FB180;
   color: #ffffff;
+  width: 100px;
+}
+
+.sendfeedback:hover {
+  background: #ffffff;
+  color: #3FB180;
+  font-size: 20px;
+  -webkit-box-shadow: inset 0 0 0 3px #3FB180;
+  box-shadow: inset 0 0 0 3px #3FB180;
 }
 
 .thanks {
@@ -412,6 +427,14 @@ input,textarea {
   transition: all .3s;
   text-align: center;
   padding-top: 100px;
+  -webkit-animation-duration: 5s;
+  animation-duration: 5s;
+  -webkit-animation-name: intro;
+  animation-name: intro;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
 }
 
 .show {
@@ -429,8 +452,7 @@ input,textarea {
 }
 
 .logo_thanks {
-  border-radius: 100%;
-  width: 200px;
+  width: 285px;
   margin-top: 28px;
 }
 
@@ -682,116 +704,22 @@ body {
   background: #c40000;
   color: white;
   font-size: 20px;
-}/*body {
-margin:0;
-height: 100vh;
-width: 100%;
 }
 
-.wrapper {
-	height: 100vh;
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-  grid-gap: 5px;
-	background-color: #DAF7A6;
+.image-size {
+  width: 100%;
+  height: 100%;
+  position: absolute;
 }
 
-.imagen {
-	display: flex;
-	justify-content: center;
-	align-items: center;
+.image-size2 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: auto;
 }
 
-.imagen1 {
-	background-image: url(/images/micromachismo.jpg);
-	background-position: center center;
-	background-size: auto;
-	background-repeat: no-repeat;
-	grid-column: 1 / 3;
-	grid-row: 1 / 3;
-	margin: 10px;
-}
-.imagen2 {
-	background-image: url(/images/juegos3-4años.jpg);
-	background-position: center center;
-	background-size: contain;
-	background-repeat: no-repeat;
-	grid-column: 3 / 4;
-	grid-row: 1 / 2;
-}
-.imagen3 {
-	background-image: url(/images/cerveza.jpg);
-background-position: center center;
-background-size: contain;
-background-repeat: no-repeat;
-	grid-column: 3 / 4;
-	grid-row: 2 / 3 ;
-}
-.imagen4 {
-	background-image: url(/images/mujerbocadillos.jpg);
-	background-position: center center;
-	background-size: contain;
-	background-repeat: no-repeat;
-	grid-column: 1 / 2 ;
-	grid-row: 3 / 5;
-}
-.imagen5 {
-	background-image: url(/images/jedi.png);
-	background-position: center center;
-	background-size: contain;
-	background-repeat: no-repeat;
-	grid-column: 2 / 3 ;
-	grid-row: 3 / 4;
-}
-.imagen6 {
-	background-image: url(/images/sueldos.jpg);
-	background-position: center center;
-	background-size: contain;
-	background-repeat: no-repeat;
-	grid-column: 3 / 4;
-	grid-row: 3 / 4;
-}
-.imagen7 {
-	background-image: url(/images/juguetesgenitales.jpg);
-background-position: center center;
-background-size: contain;
-background-repeat: no-repeat;
-	grid-column: 2 / 3;
-	grid-row: 4 / 5 ;
-}
-.imagen8 {
-	background-image: url(/images/forgesamadecasa.jpg);
-background-position: center center;
-background-size: contain;
-background-repeat: no-repeat;
-	grid-column: 3 / 4;
-	grid-row: 4 / 5;
-}
-.imagen9 {
-	background-image: url(/images/lavadora.jpg);
-background-position: center center;
-background-size: contain;
-background-repeat: no-repeat;
-	grid-column: 1 / 2 ;
-	grid-row: 5 / 6 ;
-}
-.imagen10 {
-	background-image: url(/images/moderno.jpg);
-	background-position: center center;
-	background-size: contain;
-	background-repeat: no-repeat;
-	grid-column: 2 / 4 ;
-	grid-row: 5 / 6;
-}
-
-.slide {
-	background-image: url(/images/jedi.png);
-	background-position: center center;
-	background-size: contain;
-	background-repeat: no-repeat;
-}
-*/.comic {
+.comic {
   border: solid 5px;
   border-color: #E1B753;
 }
@@ -805,6 +733,36 @@ background-repeat: no-repeat;
 .resources {
   font-size: 10px;
   color: #1E4E5C;
+}
+
+@media all and (min-width: 500px) {
+  input,textarea {
+    width: 350px;
+  }
+
+  .name,.lastname {
+    margin-right: 270px;
+  }
+
+  .mail {
+    margin-right: 280px;
+  }
+
+  .phone {
+    margin-right: 280px;
+  }
+
+  .comment {
+    margin-right: 255px;
+  }
+
+  .sendfeedback {
+    margin-right: 255px;
+  }
+
+  .logo_thanks {
+    width: 425px;
+  }
 }
 
 @media all and (min-width: 570px) {
@@ -863,6 +821,36 @@ background-repeat: no-repeat;
 @media all and (min-width: 1000px) {
   .microlog {
     max-width: 340px;
+  }
+}
+
+@-webkit-keyframes intro {
+  from {
+    -webkit-transform: scale(10) rotate(-150deg);
+    transform: scale(10) rotate(-150deg);
+    opacity: 0;
+    color: white;
+  }
+
+  to {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes intro {
+  from {
+    -webkit-transform: scale(10) rotate(-150deg);
+    transform: scale(10) rotate(-150deg);
+    opacity: 0;
+    color: white;
+  }
+
+  to {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
   }
 }
 
