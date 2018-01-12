@@ -23,7 +23,7 @@ function createModal(content, type) {
 function openVideoModal(e) {
   console.log('click');
   var videoSRC = e.currentTarget.getAttribute("data-src");
-  var videoContent = '<iframe class="modal__videocontent" src="' + videoSRC + '" frameborder="0" allowfullscreen></iframe>';
+  var videoContent = '<iframe class="modal__videocontent" src="' + videoSRC + '" frameborder="0" X-Frame-Options: ALLOW-FROM https://youtube.com/ allowfullscreen></iframe>';
   var videoModal = createModal(videoContent, "video");
   body.insertAdjacentHTML( 'beforeend', videoModal );
   var overlay = body.querySelector('.modal__overlay');
