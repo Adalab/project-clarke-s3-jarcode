@@ -819,6 +819,8 @@ body {
   background-color: #E1B753;
   text-align: center;
   padding: 10px;
+  margin: 0px;
+  margin-top: 35px;
 }
 
 .odd {
