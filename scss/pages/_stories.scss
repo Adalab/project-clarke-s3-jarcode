@@ -1,16 +1,16 @@
-.stories_box{
+
+.stories_box {
 	margin-top: 25px;
 	min-width: 200px;
-	margin-left: auto;
-	margin-right: auto;
+	margin-left: 0;
+	margin-right: 0;
 }
 
-.stories_image{
-	width: 200px;
-	height: 400px;
+.stories_image {
+
 	min-width: 200px;
-	margin-left: auto;
-	margin-right: auto;
+	margin-left: 0;
+	margin-right: 0;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -19,6 +19,6 @@
 .stories_style {
 	display: block;
 	margin: auto;
-	max-width: 250px;
+	max-width:250px;
 	width: 100%;
 }
