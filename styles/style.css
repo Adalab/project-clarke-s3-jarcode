@@ -55,6 +55,10 @@
   padding: 0;
 }
 
+.header_link {
+  text-decoration: none;
+}
+
 .header_style {
   margin: 0;
   background-color: #1E4E5C;
@@ -163,6 +167,7 @@
 .header_link:hover {
   background: #1E4E5C;
   color: #ffffff;
+  text-decoration: none;
 }
 
 .content {
@@ -298,6 +303,83 @@
 
 .casalibro {
   background: url("../images/books/casalibro.png");
+}
+
+.fnac {
+  background: url("../images/books/fnac.png");
+}
+
+.films_box {
+  margin-top: 25px;
+  min-width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.films_box p {
+  text-align: center;
+  margin: 10px;
+  height: 125px;
+  font-size: 14px;
+}
+
+.film_image {
+  width: 200px;
+  height: 400px;
+  min-width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.film_style {
+  display: block;
+  margin: auto;
+  max-width: 250px;
+  width: 100%;
+}
+
+.film_title {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 19px;
+}
+
+.shop_web {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  margin-bottom: 15px;
+  list-style: none;
+  padding: 0px;
+  padding-top: 35px;
+}
+
+.shop a {
+  overflow: hidden;
+  display: block;
+  background-size: 40px 40px;
+  padding-top: 40px;
+  height: 0;
+  width: 40px;
+}
+
+.amazon {
+  background: url("../images/books/amazon.png");
+}
+
+.elcorteingles {
+  background: url("../images/Peliculas/elcorteingles.jpg");
 }
 
 .fnac {
@@ -718,6 +800,52 @@ body {
   height: 100%;
   position: absolute;
   margin: auto;
+}
+
+.container-fluid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #EAEEF0;
+}
+
+.test_input {
+  width: 20px;
+}
+
+.test_title {
+  width: 100%;
+  background-color: #E1B753;
+  text-align: center;
+  padding: 10px;
+  margin: 0px;
+  margin-top: 35px;
+}
+
+.odd {
+  width: 80%;
+  padding: 10px;
+  border-bottom: 2px solid #1E4E5C;
+  margin-top: 10px;
+}
+
+.even {
+  width: 80%;
+  padding: 10px;
+  border-bottom: 2px solid #1E4E5C;
+  margin-top: 10px;
+}
+
+.questions {
+  padding-bottom: 10px;
+  font-weight: bold;
 }
 
 .comic {

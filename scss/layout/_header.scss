@@ -2,6 +2,9 @@
 	margin: 0;
 	padding: 0;
 }
+.header_link {
+	text-decoration: none;
+}
 //HEADER STYLES
 .header_style{
 	margin: 0;
@@ -10,6 +13,7 @@
 	position: relative;
 	z-index: 1;
 }
+
 .logo_box{
 	min-width: 200px;
 	margin-left: auto;
@@ -28,6 +32,7 @@
 			max-width: 340px;
 		}
 }
+
 /*DESPLEGABLE*/
 #navigation{
 	display: none;
@@ -100,6 +105,7 @@
 	&:hover{
 		background: $backHeaderFooter;
 		color: $whiteColor;
+		
 	}
 	@media all and (min-width: 600px){
 		width: 115px;
@@ -117,5 +123,6 @@
 	&:hover{
 		background: $backHeaderFooter;
 		color: $whiteColor;
+		text-decoration: none;
 	}
 }
