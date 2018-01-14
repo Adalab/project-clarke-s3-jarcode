@@ -805,7 +805,7 @@ body {
   margin: auto;
 }
 
-.container-fluid {
+.container-test {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -819,7 +819,7 @@ body {
   background-color: #EAEEF0;
 }
 
-.test_input {
+.container-test .test_input {
   width: 20px;
 }
 
