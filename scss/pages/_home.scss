@@ -10,6 +10,7 @@
 	border: none;
 	background-color: $colorGreen;
 	font-size: 14px;
+	text-decoration: none;
 }
 .box1 {
 	text-decoration: none;
@@ -25,6 +26,12 @@
 				background-size: 20px auto;
 		}
 	}
+}
+.openbox {
+	margin-left: 20px;
+	background-color: $colorGreen;
+	border-radius: 100%;
+	border: 2px solid $colorGreen;
 }
 #disapear1 {
 		display: none;

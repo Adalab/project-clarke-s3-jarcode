@@ -520,17 +520,17 @@ input,textarea {
 }
 
 .show h2 {
-  font-size: 34px;
+  font-size: 20px;
   margin-top: 34px;
 }
 
 .thanks.show p {
-  font-size: 20px;
+  font-size: 16px;
   margin-top: 20px;
 }
 
 .logo_thanks {
-  width: 285px;
+  width: 200px;
   margin-top: 28px;
 }
 
@@ -549,6 +549,7 @@ input,textarea {
   border: none;
   background-color: #3FB180;
   font-size: 14px;
+  text-decoration: none;
 }
 
 .box1 {
@@ -566,6 +567,13 @@ input,textarea {
   margin: 1em;
   background: url("../images/l5.png") no-repeat left top;
   background-size: 20px auto;
+}
+
+.openbox {
+  margin-left: 20px;
+  background-color: #3FB180;
+  border-radius: 100%;
+  border: 2px solid #3FB180;
 }
 
 #disapear1 {
@@ -890,6 +898,16 @@ body {
 
   .sendfeedback {
     margin-right: 255px;
+  }
+
+  .show h2 {
+    font-size: 34px;
+    margin-top: 34px;
+  }
+
+  .thanks.show p {
+    font-size: 34px;
+    margin-top: 34px;
   }
 
   .logo_thanks {
