@@ -549,20 +549,21 @@ input,textarea {
   border: none;
   background-color: #3FB180;
   font-size: 14px;
-  text-decoration: none;
 }
 
-.box1 {
-  text-decoration: none;
-  font-size: 14px;
+.microbox h2,.microbox h3 {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
 }
 
-.box1 ul {
+.microbox ul {
   padding-left: 35px;
   list-style: none;
+  display: none;
 }
 
-.box1 ul li {
+.microbox ul li {
   padding-left: 20px;
   margin: 1em;
   background: url("../images/l5.png") no-repeat left top;
@@ -570,17 +571,13 @@ input,textarea {
 }
 
 .openbox {
-  margin-left: 20px;
-  background-color: #3FB180;
   border-radius: 100%;
+  background-color: #3FB180;
   border: 2px solid #3FB180;
+  margin-right: 30px;
 }
 
-#disapear1 {
-  display: none;
-}
-
-.disapear {
+.disapear1,.disapear2,.disapear3 {
   display: none;
 }
 

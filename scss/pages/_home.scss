@@ -2,6 +2,7 @@
 	margin: 50px 120px;
 	display: flex;
 }
+
 .microbox {
 	border-radius: 15px;
 	margin-left: 15px;
@@ -10,56 +11,37 @@
 	border: none;
 	background-color: $colorGreen;
 	font-size: 14px;
-	text-decoration: none;
-}
-.box1 {
-	text-decoration: none;
-	font-size: 14px;
+	h2,	h3 {
+		font-size: 20px;
+		font-weight: bold;
+		text-align: center;
+
+	}
+
 	ul {
 		padding-left: 35px;
 		list-style: none;
-
-			li {
-				padding-left: 20px;
-				margin: 1em;
-				background: url('../images/l5.png') no-repeat left top;
-				background-size: 20px auto;
+		display: none;
+		li{
+			padding-left: 20px;
+			margin: 1em;
+			background: url('../images/l5.png') no-repeat left top;
+			background-size: 20px auto;
 		}
 	}
 }
+
 .openbox {
-	margin-left: 20px;
-	background-color: $colorGreen;
 	border-radius: 100%;
+	background-color: $colorGreen;
 	border: 2px solid $colorGreen;
+	margin-right: 30px;
+
 }
-#disapear1 {
+.disapear1, .disapear2, .disapear3 {
 		display: none;
 }
-// 	h2,	h3 {
-// 		font-size: 20px;
-// 		font-weight: bold;
-// 		text-align: center;
-//
-// 	}
-//
-// 	ul {
-// 		padding-left: 35px;
-// 		list-style: none;
-// 		display: none;
-// 		li{
-// 			padding-left: 20px;
-// 			margin: 1em;
-// 			background: url('../images/l5.png') no-repeat left top;
-// 			background-size: 20px auto;
-// 		}
-// 	}
-//
-// }
-.disapear
-{
-		display: none;
-}
+
 .networks {
 	margin: 0;
 	padding: 2px;
