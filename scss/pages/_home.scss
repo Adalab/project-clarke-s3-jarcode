@@ -8,15 +8,19 @@
 	padding: 20px 20px;
 	width: 354px;
 	border: none;
-	background-color: $backPage;
+	background-color: $colorGreen;
 	font-size: 14px;
-	h2, h3 {
+	h2,	h3 {
 		font-size: 20px;
 		font-weight: bold;
+		text-align: center;
+
 	}
+
 	ul {
 		padding-left: 35px;
 		list-style: none;
+		display: none;
 		li{
 			padding-left: 20px;
 			margin: 1em;
@@ -24,6 +28,11 @@
 			background-size: 20px auto;
 		}
 	}
+	
+}
+.disapear
+{
+		display: none;
 }
 .networks {
 	margin: 0;

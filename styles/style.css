@@ -464,18 +464,20 @@ input,textarea {
   padding: 20px 20px;
   width: 354px;
   border: none;
-  background-color: #E2D8A3;
+  background-color: #3FB180;
   font-size: 14px;
 }
 
 .microbox h2,.microbox h3 {
   font-size: 20px;
   font-weight: bold;
+  text-align: center;
 }
 
 .microbox ul {
   padding-left: 35px;
   list-style: none;
+  display: none;
 }
 
 .microbox ul li {
@@ -483,6 +485,10 @@ input,textarea {
   margin: 1em;
   background: url("../images/l5.png") no-repeat left top;
   background-size: 20px auto;
+}
+
+.disapear {
+  display: none;
 }
 
 .networks {
