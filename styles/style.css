@@ -733,6 +733,10 @@ body {
   background-color: #EAEEF0;
 }
 
+.test_input {
+  width: 20px;
+}
+
 .test_title {
   width: 100%;
   background-color: #E1B753;
