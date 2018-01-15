@@ -2,6 +2,6 @@
 
 document.querySelector('.scroll').addEventListener('click', function(e){
 	e.preventDefault();
-	document.querySelector('.imgscroll').scrollIntoView({
+	document.querySelector('header').scrollIntoView({
 		behavior: 'smooth'});
 });

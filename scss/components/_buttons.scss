@@ -4,7 +4,6 @@
 	left: 3%;
 	top: 70%;
 	cursor: pointer;
-	padding: 10px 35px 16px 0px;
 	@media all and (min-width: 600px){
 		display: none;
 	}
@@ -46,8 +45,8 @@
 	text-align: center;
 	z-index: 999;
 	background: $backHeaderFooter;
-	width: 30px;
-	height: 28px;
+	width: 35px;
+	height: 30px;
 	right: 30px;
 	bottom: 150px;
 	padding-top: 2px;
