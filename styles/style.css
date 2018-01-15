@@ -1020,7 +1020,19 @@ body {
 .item20-twitter {
   grid-row: 1/3;
 }
-*/@media all and (min-width: 500px) {
+*/.short_stories {
+  margin-top: 23px;
+}
+
+.short_stories h2 {
+  text-align: center;
+}
+
+.stories_image {
+  width: 100%;
+}
+
+@media all and (min-width: 500px) {
   input,textarea {
     width: 350px;
   }
@@ -1104,6 +1116,11 @@ body {
 
   .item {
     width: 115px;
+  }
+
+  .stories_image {
+    height: 315px;
+    padding-bottom: 15px;
   }
 }
 
