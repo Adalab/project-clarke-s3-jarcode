@@ -5,7 +5,6 @@
   left: 3%;
   top: 70%;
   cursor: pointer;
-  padding: 10px 35px 16px 0px;
 }
 
 #xButton span,#xButton span:before,#xButton span:after {
@@ -50,6 +49,34 @@
   transform: rotate(-45deg);
 }
 
+.scroll {
+  position: fixed;
+  text-align: center;
+  z-index: 999;
+  background: #1E4E5C;
+  width: 35px;
+  height: 30px;
+  right: 30px;
+  bottom: 150px;
+  padding-top: 2px;
+  border-radius: 50%;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.scroll i {
+  color: #ffffff;
+}
+
+.scroll:hover {
+  background-color: #E2D8A3;
+}
+
+.scroll:hover i {
+  color: #1E4E5C;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -62,7 +89,6 @@
 .header_style {
   margin: 0;
   background-color: #1E4E5C;
-  height: 100px;
   position: relative;
   z-index: 1;
 }
@@ -93,10 +119,12 @@
   list-style: none;
   width: 115px;
   position: relative;
+  margin: 0;
 }
 
 .menu_item {
-  height: 40px;
+  padding-bottom: 10px;
+  padding-top: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -111,6 +139,10 @@
   color: #ffffff;
   cursor: pointer;
   position: relative;
+}
+
+.menu_item a {
+  text-decoration: none;
 }
 
 .menu_item:hover {
@@ -988,7 +1020,19 @@ body {
 .item20-twitter {
   grid-row: 1/3;
 }
-*/@media all and (min-width: 500px) {
+*/.short_stories {
+  margin-top: 23px;
+}
+
+.short_stories h2 {
+  text-align: center;
+}
+
+.stories_image {
+  width: 100%;
+}
+
+@media all and (min-width: 500px) {
   input,textarea {
     width: 350px;
   }
@@ -1072,6 +1116,11 @@ body {
 
   .item {
     width: 115px;
+  }
+
+  .stories_image {
+    height: 315px;
+    padding-bottom: 15px;
   }
 }
 

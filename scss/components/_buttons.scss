@@ -4,7 +4,6 @@
 	left: 3%;
 	top: 70%;
 	cursor: pointer;
-	padding: 10px 35px 16px 0px;
 	@media all and (min-width: 600px){
 		display: none;
 	}
@@ -39,4 +38,28 @@
 }
 #xButton.active span:after {
 	transform: rotate(-45deg);
+}
+//scroll
+.scroll {
+	position: fixed;
+	text-align: center;
+	z-index: 999;
+	background: $backHeaderFooter;
+	width: 35px;
+	height: 30px;
+	right: 30px;
+	bottom: 150px;
+	padding-top: 2px;
+	border-radius: 50%;
+	transition: all 0.5s ease-in-out;
+	cursor: pointer;
+	i {
+		color: $whiteColor;
+	}
+	&:hover {
+		background-color: $backPage;
+		i {
+			color: $backHeaderFooter;
+		}
+	}
 }
