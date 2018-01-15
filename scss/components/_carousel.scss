@@ -1,0 +1,124 @@
+
+
+.imagen1 {
+	background-image: url(../images/piropo.jpg);
+	background-position: center;
+	background-size: content;
+	background-repeat: no-repeat;
+	height: 400px;
+	background-color: $lightBlue;
+
+}
+.imagen2 {
+	background-image: url(../images/carousel/tablero1.jpg);
+	background-position: center;
+	background-size: content;
+	background-repeat: no-repeat;
+	height: 400px;
+	background-color: $lightBlue;
+
+}
+.imagen3 {
+	background-image: url(../images/carousel/tablero3.jpg);
+	background-position: center;
+	background-size: content;
+	background-repeat: no-repeat;
+	height: 400px;
+	background-color: $lightBlue;
+
+}
+.imagen4 {
+	background-image: url(../images/carousel/tablero2.jpg);
+	background-position: center;
+	background-size: content;
+	background-repeat: no-repeat;
+	height: 400px;
+	background-color: $lightBlue;
+
+}
+.imagen5 {
+	background-image: url(../images/carousel/tablero4.jpg);
+	background-position: center;
+	background-size: content;
+	background-repeat: no-repeat;
+	height: 400px;
+	background-color: $lightBlue;
+
+}
+.phrase1 {
+	font-family: $fontFjalla;
+color: $colorGreen;
+ font-size: 2.3em;
+ left: 30%;
+ top: 15%;
+ width: 170px;
+ position: absolute;
+ animation-name: intro;
+ animation-duration: 3s;
+ animation-iteration-count: 1;
+ transform:rotate();
+}
+
+.phrase2 {
+	font-family: $fontFjalla;
+	color: $colorBrown;
+ font-size: 1.5em;
+ left: 50%;
+ width: 150px;
+ top: 13%;
+ position: absolute;
+ animation-name: intro2;
+ animation-duration: 4s;
+ animation-iteration-count: 1;
+}
+@keyframes intro2 {
+	from {
+		position: absolute;
+	left: 50%;
+	top: -100%;
+	}
+
+	to {
+		position: absolute;
+	left: 50%;
+	top: 13%;
+	}
+}
+.phrase3 {
+	font-family: $fontFjalla;
+	color: $colorRed;
+ font-size: 1.8em;
+ left: 43%;
+ width: 250px;
+ top: 40%;
+ position: absolute;
+ animation-name: intro3;
+ animation-duration: 4s;
+ animation-iteration-count: 1;
+}
+@keyframes intro3 {
+	from {
+		position: absolute;
+		left: -20%;
+		top: -100%;
+	}
+
+	to {
+		position: absolute;
+	left: 43%;
+	top: 40%;
+	}
+}
+.phrase4 {
+	font-family: $fontFjalla;
+color: $colorGreen;
+ font-size: 1.7em;
+ left: 55%;
+ top: 4%;
+ width: 150px;
+ position: absolute;
+ animation-name: intro;
+ animation-duration: 3s;
+ animation-iteration-count: 1;
+ transform:rotate();
+}

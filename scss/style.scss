@@ -1,16 +1,14 @@
 @import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+@import "core/functions";
+@import "core/mixins";
+@import "core/variables";
+
 @import "components/buttons";
 @import "components/forms";
 @import "components/hero";
 @import "components/newsletter";
 @import "components/typography";
 @import "components/carousel";
-
-
-
-@import "core/functions";
-@import "core/mixins";
-@import "core/variables";
 
 
 @import "layout/header";
@@ -27,3 +25,4 @@
 @import "pages/test";
 @import "pages/comic";
 @import "pages/twitter";
+@import "pages/stories";

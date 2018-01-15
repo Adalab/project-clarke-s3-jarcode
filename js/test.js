@@ -1,5 +1,6 @@
 'use strict';
 
+
 var testResult = document.querySelectorAll('.test_input');
 var resultado = document.querySelector('.btn_result');
 resultado.addEventListener('click', checkTest);

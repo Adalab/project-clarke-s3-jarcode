@@ -1,24 +1,13 @@
-
-.stories_box {
-	margin-top: 25px;
-	min-width: 200px;
-	margin-left: 0;
-	margin-right: 0;
+.short_stories {
+	margin-top: 23px;
+	h2{
+		text-align: center;
+	}
 }
-
-.stories_image {
-
-	min-width: 200px;
-	margin-left: 0;
-	margin-right: 0;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-.stories_style {
-	display: block;
-	margin: auto;
-	max-width:250px;
+.stories_image{
 	width: 100%;
+	@media all and (min-width: 600px){
+		height: 315px;
+		padding-bottom: 15px;
+	}
 }

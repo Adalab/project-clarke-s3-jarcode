@@ -9,7 +9,6 @@
 .header_style{
 	margin: 0;
 	background-color: $backHeaderFooter;
-	height: 100px;
 	position: relative;
 	z-index: 1;
 }
@@ -49,6 +48,7 @@
 	list-style: none;
 	width: 115px;
 	position: relative;
+	margin: 0;
 	@media all and (min-width: 600px){
 		background-color: $backHeaderFooter;
 		width: 100%;
@@ -59,7 +59,8 @@
 	}
 }
 .menu_item {
-	height: 40px;
+	padding-bottom: 10px;
+	padding-top: 10px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -68,6 +69,9 @@
 	color: $whiteColor;
 	cursor:pointer;
 	position: relative;
+	a {
+		text-decoration: none;
+	}
 	&:hover{
 		background: $backPage;
 		color: $backHeaderFooter;
@@ -105,7 +109,7 @@
 	&:hover{
 		background: $backHeaderFooter;
 		color: $whiteColor;
-		
+
 	}
 	@media all and (min-width: 600px){
 		width: 115px;
