@@ -148,16 +148,24 @@ input, textarea {
 }
 
 .show h2{
-	font-size: 34px;
+	font-size: 20px;
 	margin-top: 34px;
+	@media all and (min-width: 500px){
+		font-size: 34px;
+		margin-top: 34px;
+	}
 }
 .thanks.show p {
-	font-size: 20px;
+	font-size: 16px;
 	margin-top: 20px;
+	@media all and (min-width: 500px){
+		font-size: 34px;
+		margin-top: 34px;
+	}
 }
 
 .logo_thanks{
-	width: 285px;
+	width: 200px;
 	margin-top: 28px;
 	@media all and (min-width: 500px){
 		width: 425px;
