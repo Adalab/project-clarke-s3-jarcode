@@ -1070,6 +1070,7 @@ body {
   -ms-flex-pack: center;
   justify-content: center;
   margin: auto;
+  background-color: blue;
 }
 
 .item1-twitter {
@@ -1133,7 +1134,6 @@ body {
 .stories_image {
   width: 100%;
 }
-
 
 @media all and (min-width: 500px) {
   input,textarea {
