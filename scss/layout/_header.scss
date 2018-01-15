@@ -68,6 +68,9 @@
 	color: $whiteColor;
 	cursor:pointer;
 	position: relative;
+	a {
+		text-decoration: none;
+	}
 	&:hover{
 		background: $backPage;
 		color: $backHeaderFooter;
@@ -105,7 +108,7 @@
 	&:hover{
 		background: $backHeaderFooter;
 		color: $whiteColor;
-		
+
 	}
 	@media all and (min-width: 600px){
 		width: 115px;

@@ -50,6 +50,34 @@
   transform: rotate(-45deg);
 }
 
+.scroll {
+  position: fixed;
+  text-align: center;
+  z-index: 999;
+  background: #1E4E5C;
+  width: 30px;
+  height: 28px;
+  right: 30px;
+  bottom: 150px;
+  padding-top: 2px;
+  border-radius: 50%;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.scroll i {
+  color: #ffffff;
+}
+
+.scroll:hover {
+  background-color: #E2D8A3;
+}
+
+.scroll:hover i {
+  color: #1E4E5C;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -111,6 +139,10 @@
   color: #ffffff;
   cursor: pointer;
   position: relative;
+}
+
+.menu_item a {
+  text-decoration: none;
 }
 
 .menu_item:hover {
