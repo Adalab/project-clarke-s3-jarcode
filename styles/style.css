@@ -1006,8 +1006,12 @@ body {
 }
 
 .btn_result {
-  width: 150px;
-  height: 150px;
+  padding: 10px;
+  background: #1E4E5C;
+  color: #ffffff;
+  border: none;
+  margin-top: 50px;
+  border-radius: 12px;
 }
 
 .test_title {

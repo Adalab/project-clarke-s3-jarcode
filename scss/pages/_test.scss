@@ -8,8 +8,12 @@
 	}
 }
 .btn_result {
-	width: 150px;
-	height: 150px;
+	padding: 10px;
+	background: $backHeaderFooter;
+	color: $whiteColor;
+	border: none;
+	margin-top: 50px;
+	border-radius: 12px;
 }
 
 .test_title {
