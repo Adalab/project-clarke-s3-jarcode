@@ -80,7 +80,7 @@
 .imagen1 {
   background-image: url(../images/piropo.jpg);
   background-position: center;
-  background-size: content;
+  background-size: cover;
   background-repeat: no-repeat;
   height: 400px;
   background-color: #EAEEF0;
@@ -1274,6 +1274,19 @@ body {
   }
 }
 
+@media all and (max-width: 780px) {
+  .phrase1 {
+    width: 150px;
+    left: 10%;
+    top: 20%;
+  }
+
+  .phrase3 {
+    left: 15%;
+    top: 40%;
+  }
+}
+
 @media all and (max-width: 647px) {
   .grid {
     display: grid;
@@ -1361,13 +1374,13 @@ body {
 @-webkit-keyframes intro3 {
   from {
     position: absolute;
-    left: -20%;
-    top: -100%;
+    left: -10%;
+    top: -50%;
   }
 
   to {
     position: absolute;
-    left: 43%;
+    left: 40%;
     top: 40%;
   }
 }
@@ -1375,13 +1388,13 @@ body {
 @keyframes intro3 {
   from {
     position: absolute;
-    left: -20%;
-    top: -100%;
+    left: -10%;
+    top: -50%;
   }
 
   to {
     position: absolute;
-    left: 43%;
+    left: 40%;
     top: 40%;
   }
 }
