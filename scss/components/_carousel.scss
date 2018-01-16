@@ -1,9 +1,7 @@
-
-
 .imagen1 {
 	background-image: url(../images/piropo.jpg);
 	background-position: center;
-	background-size: content;
+	background-size: auto;
 	background-repeat: no-repeat;
 	height: 400px;
 	background-color: $lightBlue;
@@ -99,13 +97,13 @@ color: $colorGreen;
 @keyframes intro3 {
 	from {
 		position: absolute;
-		left: -20%;
-		top: -100%;
+		left: -10%;
+		top: -50%;
 	}
 
 	to {
 		position: absolute;
-	left: 43%;
+	left: 40%;
 	top: 40%;
 	}
 }
@@ -121,4 +119,24 @@ color: $colorGreen;
  animation-duration: 3s;
  animation-iteration-count: 1;
  transform:rotate();
+}
+@media all and (max-width: 780px){
+
+	.phrase1 {
+		width: 150px;
+		left: 10%;
+	  top: 20%;
+	}
+	.phrase3 {
+		left: 15%;
+		top: 40%;
+	}
+
+
+	.phrase4 {
+
+	}
+	.phrase5 {
+
+	}
 }
