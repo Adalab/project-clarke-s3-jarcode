@@ -24,13 +24,16 @@ function checkTest(){
 
 function mostrarMensaje(){
 if (a > 0 && a < 11){
-	resultadoFinal.innerHTML = 'eres machista';
+	resultadoFinal.innerHTML = 'Su frase para defenderse cuando lo tachan de machista es "¿machista yo? Si vivo con tres mujeres". Usted no es que sea machista a secas, es un machista irrecuperable. No pasa nada, el feminismo no cuenta con que usted entre en razón. Eso sí, tenga cuidado cuando vaya al zoo, pueden no dejarle salir luego.';
+	a = 0;
 }
 else if (a >= 11 && a <=20) {
-	resultadoFinal.innerHTML = 'no eres machista';
+	resultadoFinal.innerHTML = 'Tenemos una buena y una mala noticia para usted. La mala es que es usted machista. La buena es que no está en el anterior grupo. El feminismo necesita que siga teniendo en cuenta cada vez más lo que una mujer puede o no querer. Necesita mejorar, pero ¿quién no lo necesita?';
+	a = 0;
 }
 else if (a > 20){
-	resultadoFinal.innerHTML = 'me da igual si eres machista';
+	resultadoFinal.innerHTML = 'El mundo necesita más personas como usted!!';
+	a = 0;
 }
 else {
 
